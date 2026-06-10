@@ -78,7 +78,7 @@ const LLMS_TXT = `# gst-validator-mcp
 - extract_pan(gstin) — pull the 10-char PAN from a GSTIN
 - state_from_gstin(gstin) — resolve TIN state code to state/UT name
 
-Endpoint: https://gst-validator-mcp.prakhar-cognizance.workers.dev/mcp
+Endpoint: https://gst-validator-mcp.atlasword.workers.dev/mcp
 `;
 
 function renderLanding(env: Env, url: URL): string {
@@ -95,7 +95,7 @@ function renderLanding(env: Env, url: URL): string {
 <body><h1>${productName}</h1>
 <p>${tagline}</p>
 <p>Free: 100 calls/mo. Paid from $9/mo.</p>
-<p><code>POST https://gst-validator-mcp.prakhar-cognizance.workers.dev/mcp</code></p>
+<p><code>POST https://gst-validator-mcp.atlasword.workers.dev/mcp</code></p>
 <p>See <a href="/llms.txt">/llms.txt</a> for the tool manifest, <a href="/upgrade?tier=solo">/upgrade?tier=solo</a> to subscribe.</p>
 </body></html>`;
 }
