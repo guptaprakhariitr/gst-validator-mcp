@@ -17,6 +17,8 @@ id = "49c56849707b4b8ab1aa7ff382cb7e13"
 [vars]
 UPGRADE_URL = "https://gst-validator-mcp.prakhar-cognizance.workers.dev/upgrade"
 PRODUCT_NAME = "gst-validator-mcp"
+PRODUCT_TAGLINE = "Validate Indian GSTIN numbers — structure, state code, embedded PAN, and GSTN mod-36 check character. Pure local compute, microsecond latencies."
+PRODUCT_URL = "https://gst-validator-mcp.prakhar-cognizance.workers.dev"
 DODO_PRODUCT_ID_SOLO = "pdt_0NglJiEOQY7lmZVzyNejY"
 DODO_PRODUCT_ID_TEAM = "pdt_0NglJiIXGfkVJCAwKFRMD"
 DODO_PRODUCT_ID_PRO  = "pdt_0NglJiKAXfEdEcJojhmqX"
