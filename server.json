@@ -1,0 +1,28 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.guptaprakhariitr/gst-validator-mcp",
+  "title": "GST Validator",
+  "description": "Validate Indian GSTINs locally (Verhoeff), extract PAN, identify issuing state.",
+  "version": "0.1.0",
+  "websiteUrl": "https://gst-validator-mcp.atlasword.workers.dev/",
+  "repository": {
+    "url": "https://github.com/guptaprakhariitr/gst-validator-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://gst-validator-mcp.atlasword.workers.dev/mcp"
+    }
+  ],
+  "packages": [
+    {
+      "registryType": "npm",
+      "identifier": "@insnapsprakhar/gst-validator-mcp",
+      "version": "0.1.0",
+      "transport": {
+        "type": "stdio"
+      }
+    }
+  ]
+}
